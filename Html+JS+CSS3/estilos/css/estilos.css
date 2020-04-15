@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+
+h1,h2,h3,h4,h5,h6,div,input,p,a{font-family: "Open Sans";  margin:0px; }
+
+/*PROFILE*/
+.profile-card-10{border-radius:5px;box-shadow:0px 0px 25px rgba(0,0,0,0.1);overflow:hidden;position:relative;margin:10px auto;cursor:pointer;padding:30px 15px;background-color:#1f2124;color:#EEE;}
+
+.profile-card-10 img{margin:10px auto 20px auto;width:100px;height:100px;border-radius:50%;border:6px solid transparent;box-shadow:0px 0px 0px 2px #4cc0ff;transition: all 0.25s linear;}
+
+.profile-card-10 .profile-name{color:#FFF;font-weight:bold;font-size:17px;}
+
+.profile-card-10 .profile-location{font-size:13px;opacity:0.7;}
+
+.profile-card-10 .profile-description{padding:10px;font-size:13px; margin-bottom: 20px}
+
+.profile-card-10 .profile-icons .fa{color:#ffc75e;margin:10px;}
+
+.profile-card-10:hover img{transform:scale(1.1);border:10px solid transparent;}
+
+
+/*TEXT CENTER*/
+.text-center{text-align:center}
+
+
+/*IMAGEN*/
+img{border:0}
+
+img{max-width:100%!important}
+
+img,tr{page-break-inside:avoid}
+
+img{vertical-align:middle}
+
+.img-rounded{border-radius:6px}
+
+.img-circle{border-radius:50%}
+
+
+.img-responsive {display:block;max-width:100%;height:auto}
+
+/*BUTTON*/
+.my-page {padding:10px 15px;background-color:#0084cc;color:#FFF;font-size:11px;border-radius:25px; text-decoration: none;}

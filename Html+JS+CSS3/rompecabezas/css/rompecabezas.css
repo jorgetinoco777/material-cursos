@@ -1,0 +1,153 @@
+.contenedor {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+
+.pieza {
+	width: 100px;
+	height: 100px;
+	border-style: groove;
+    border-color:  #000000;
+    border-width: 1px;
+	max-width: 100%;
+ 	overflow: hidden;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	position: absolute;
+ 	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	text-align: center;
+	cursor: move;
+}
+
+.posicion1 {
+	left: 0;
+	top: 0;
+}
+
+.posicion2 {
+	left: 100px;
+	top: 0;
+}
+
+.posicion3 {
+	left: 200px;
+	top: 0;
+}
+
+.posicion4 {
+	left: 0;
+	top: 100px;
+}
+
+.posicion5 {
+	left: 100px;
+	top: 100px;
+}
+
+.posicion6 {
+	left: 200px;
+	top: 100px;
+}
+.posicion7 {
+	left: 0;
+	top: 200px;
+}
+.posicion8 {
+	left: 100px;
+	top: 200px;
+}
+.posicion9 {
+	left: 200px;
+	top: 200px;
+}
+
+.pieza1 {
+	width: 300%;
+	margin: 0;
+}
+
+.pieza2 {
+	width: 300%;
+	max-width: none !important;
+	margin: 0 0 0 -100px;
+}
+
+.pieza3 {
+	width: 300%;
+	max-width: none !important;
+	margin: 0 0 0 -200px;
+}
+
+.pieza4 {
+	width: 300%;
+	max-width: none !important;
+	margin: -100px 0 0 0;
+}
+
+.pieza5 {
+	width: 300%;
+	max-width: none !important;
+	margin: -100px 0 0 -100px;
+}
+
+.pieza6 {
+	width: 300%;
+	max-width: none !important;
+	margin: -100px 0 0 -200px;
+}
+
+.pieza7 {
+	width: 300%;
+	max-width: none !important;
+	margin: -200px 0 0 0;
+}
+
+.pieza8 {
+	width: 300%;
+	max-width: none !important;
+	margin: -200px 0 0 -100px;
+}
+
+.pieza9 {
+	width: 300%;
+	max-width: none !important;
+	margin: -200px 0 0 -200px;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+/*Pendiente*/
+.gradiente {
+	color: #fff;
+	text-shadow: #000 0 10px;
+	box-shadow: 5px;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-ms-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-ms-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+
+.over {
+	border: 2px solid #000;
+}
